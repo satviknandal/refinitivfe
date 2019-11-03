@@ -17,41 +17,41 @@
                     },
                     {
                         "title": "Product Logins",
-                        "link": ""
+                        "link": "Product Logins"
                     },
                     {
                         "title": "Contact Us",
-                        "link": ""
+                        "link": "Contact Us"
                     },
                     {
                         "title": "Support",
-                        "link": ""
+                        "link": "Support"
                     }
                 ],
                 "mainNav": [
                     {
                         "title": "You Work In",
-                        "link": "work"
+                        "link": "You Work In"
                     },
                     {
                         "title": "Products",
-                        "link": ""
+                        "link": "Products"
                     },
                     {
                         "title": "Financial Data",
-                        "link": ""
+                        "link": "Financial Data"
                     },
                     {
                         "title": "Topics & Insights",
-                        "link": ""
+                        "link": "Topics & Insights"
                     },
                     {
                         "title": "Support & Training",
-                        "link": ""
+                        "link": "Support & Training"
                     },
                     {
                         "title": "About Us",
-                        "link": ""
+                        "link": "About Us"
                     }
                 ]
         },
@@ -64,27 +64,27 @@
         "footerNav": [
             {
                 "title": "Cookie Policy",
-                "link": ""
+                "link": "Cookie Policy"
             },
             {
                 "title": "Copyright" ,
-                "link": ""
+                "link": "Copyright"
             },
             {
                 "title": "Privacy statement",
-                "link": ""
+                "link": "Privacy statement"
             },
             {
                 "title": "Terms of use",
-                "link": ""
+                "link": "Terms of use"
             },
             {
                 "title": "Supply chain transparency",
-                "link": ""
+                "link": "Supply chain transparency"
             },
             {
                 "title": "Policies",
-                "link": ""
+                "link": "Policies"
             }
         ]
     }

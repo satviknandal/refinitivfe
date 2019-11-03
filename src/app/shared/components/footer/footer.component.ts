@@ -17,4 +17,8 @@ export class FooterComponent implements OnInit {
     this.labels = changes.labels.currentValue;
   }
 
+  navigate(obj) {
+    alert("work in progress.. will navigate to " + obj.link + " page");
+  }
+
 }

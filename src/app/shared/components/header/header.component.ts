@@ -21,6 +21,7 @@ export class HeaderComponent implements OnInit {
   }
 
   navigate(obj) {
-    this.route.navigate(['/' + obj.link]);
+    alert("work in progress.. will navigate to " + obj.link + " page");
+    // this.route.navigate(['/' + obj.link]);
   }
 }
