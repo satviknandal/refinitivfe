@@ -1,0 +1,16 @@
+@import '../../../../assets/styles/style';
+
+.spinner {
+    @include rem('width', 120px);
+    margin: 100px auto;
+    &-img {
+        background-image: url('../../../../assets/images/spinner.gif');
+        background-repeat: no-repeat;
+        @include rem('width', 100px);
+        @include rem('height', 100px);
+        background-size: contain;
+    }
+    &-text {
+        @include rem('padding-top', 20px);
+    }
+}

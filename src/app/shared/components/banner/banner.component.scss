@@ -1,0 +1,32 @@
+@import '../../../../assets/styles/style';
+
+.banner {
+    background-color: $c-blue;
+    background-image: url('../../../../assets/images/banner-bg.png');
+    background-repeat: no-repeat;
+    @include rem('background-position',300px 0);
+    @include rem('height',355px);
+
+    &-inner {
+        @include rem('padding', 20px 0);
+        @include rem('width', 472px);
+        color: $c-white;
+
+        span {
+            @include rem('font-size', 11.483px);
+            @include rem('height',355px);
+            font-weight: 900;
+            letter-spacing: .18em;
+            line-height: 1.82871;
+            text-transform: uppercase;
+        }
+        h1  {
+            b {
+                font-weight: 900;
+            }
+        }
+        p {
+            @include rem('font-size', 16px)
+        }
+    }
+}

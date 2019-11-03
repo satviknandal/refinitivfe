@@ -1,0 +1,5 @@
+@import '../../../assets/styles/style';
+
+h3 {
+    @include rem('margin', 20px 0 10px 0);
+}

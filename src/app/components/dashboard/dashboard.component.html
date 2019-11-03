@@ -1,0 +1,11 @@
+<app-header [labels]="appLabels?.headerNav"></app-header>
+<app-banner [labels]="appLabels?.banner"></app-banner>
+<div class="container">
+    <h3>{{appLabels?.chartTypes?.chartTypes_dynamic}}</h3>
+    <app-nodetree-chart></app-nodetree-chart>
+    <h3>{{appLabels?.chartTypes?.chartTypes_nodesLinked}}</h3>
+    <app-nodetreemock-chart></app-nodetreemock-chart>
+    <h3>{{appLabels?.chartTypes?.chartTypes_bar}}</h3>
+    <app-bar-chart [data]="data | async"></app-bar-chart>
+</div>
+<app-footer [labels]="appLabels?.footerNav"></app-footer>

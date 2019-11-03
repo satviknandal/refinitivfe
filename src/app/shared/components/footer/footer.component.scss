@@ -1,0 +1,36 @@
+@import '../../../../assets/styles/style';
+
+//todo: footer to be made sticky
+
+.footer {
+    background-color: $c-dark-gray1;
+    @include rem('padding', 20px 0);
+
+    &-inner {
+        color: $c-white;
+
+        ul {
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+    
+            li {
+                display: inline;
+                @include rem('padding', 20px 15px 15px);
+            }
+        }
+
+        a {
+            display: inline-block;
+            @include rem('font-size', 14px);
+            color: $c-white;
+        }
+    }
+
+    &-logo {
+        background-image: url('../../../../assets/images/logo-footer.png');
+        @include rem('height', 23px);
+        background-repeat: no-repeat;
+        display: block;
+    }
+}

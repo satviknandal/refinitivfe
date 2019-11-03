@@ -1,0 +1,21 @@
+@function parseInt($n) {
+  @return $n / ($n * 0 + 1);
+}
+
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+/*mixin for border radius*/
+@mixin border-radius($radius)
+{
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}

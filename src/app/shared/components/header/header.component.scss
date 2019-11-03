@@ -1,0 +1,70 @@
+@import '../../../../assets/styles/style';
+
+.header-top {
+    border-top: 4px solid $c-blue;
+    border-bottom: 1px solid $c-light-gray;
+    padding: 10px 0;
+}
+
+.header-logo {
+    @include rem('background-position', 0 15px);
+    background-image: url('../../../../assets/images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.header-inner {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            @include rem('padding-left', 10px);
+            display: inline;
+        }
+    }
+
+    a {
+        @include rem('font-size', 14px);
+        color: $c-dark-gray;
+    }
+}
+
+.header-inner {
+    .header-nav {
+        li {
+            @include rem('padding', 20px 15px 15px);
+            border-bottom: 4px solid $c-white;
+            display: inline-block;
+
+            a {
+                @include rem('font-size', 16px);
+                font-weight: bold;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &:last-child {
+                padding-right: 0;
+                &:hover {
+                    border-bottom: 4px solid $c-white;
+                }
+            }
+
+            &:hover {
+                border-bottom: 4px solid $c-blue;
+            }
+
+            & span.search-icon {
+                background-image: url('../../../../assets/images/search-icon.png');
+                background-repeat: no-repeat;
+                @include rem('width', 16px);
+                @include rem('height', 16px);
+                display: inline-block;
+            }
+        }
+
+    }
+}

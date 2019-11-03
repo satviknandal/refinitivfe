@@ -1,0 +1,39 @@
+@import "mixins/mixin";
+
+body {
+    font-family: 'Refinitiv' !important;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    @include rem('font-size', 60px);
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+h2 {
+    @include rem('font-size', 40px);
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+h3 {
+    @include rem('font-size', 30px);
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+a {
+    cursor: pointer;
+}

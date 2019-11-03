@@ -1,0 +1,91 @@
+{
+    "data": {
+        "app": {
+            "app_title": "Refinitiv"
+        },
+        "chartTypes": {
+            "chartTypes_dynamic": "Dynamic Chart",
+            "chartTypes_nodesLinked": "All Nodes Linked Chart",
+            "chartTypes_bar": "Bar Chart D3"
+        },
+        "headerNav": {
+                "headerNav_discover": "Discover Refinitiv",
+                "topNav": [
+                    {
+                        "title": "EN",
+                        "link": ""
+                    },
+                    {
+                        "title": "Product Logins",
+                        "link": ""
+                    },
+                    {
+                        "title": "Contact Us",
+                        "link": ""
+                    },
+                    {
+                        "title": "Support",
+                        "link": ""
+                    }
+                ],
+                "mainNav": [
+                    {
+                        "title": "You Work In",
+                        "link": "work"
+                    },
+                    {
+                        "title": "Products",
+                        "link": ""
+                    },
+                    {
+                        "title": "Financial Data",
+                        "link": ""
+                    },
+                    {
+                        "title": "Topics & Insights",
+                        "link": ""
+                    },
+                    {
+                        "title": "Support & Training",
+                        "link": ""
+                    },
+                    {
+                        "title": "About Us",
+                        "link": ""
+                    }
+                ]
+        },
+        "banner": {
+            "banner_sub": "FINANCIAL TECHNOLOGY, DATA AND EXPERTISE",
+            "banner_heading": "Trade the way you want to with",
+            "banner_headingBold": "Refinitiv.",
+            "banner_text": "Refinitiv provides data, analytics, trading, and risk assessment tools so you can trade smarter and faster, overcome regulatory challenges, and scale intelligently."
+        },
+        "footerNav": [
+            {
+                "title": "Cookie Policy",
+                "link": ""
+            },
+            {
+                "title": "Copyright" ,
+                "link": ""
+            },
+            {
+                "title": "Privacy statement",
+                "link": ""
+            },
+            {
+                "title": "Terms of use",
+                "link": ""
+            },
+            {
+                "title": "Supply chain transparency",
+                "link": ""
+            },
+            {
+                "title": "Policies",
+                "link": ""
+            }
+        ]
+    }
+}

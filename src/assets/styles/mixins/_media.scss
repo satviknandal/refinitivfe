@@ -1,0 +1,22 @@
+// Responsive Mixing 
+
+/** min-width: 320px */
+@mixin media-small {
+  @media (min-width: $small) {
+    @content;
+  }
+}
+
+/** min-width: 768px */
+@mixin media-medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+
+/** min-width: 1024 */
+@mixin media-large {
+  @media (min-width: $large) {
+    @content;
+  }
+}

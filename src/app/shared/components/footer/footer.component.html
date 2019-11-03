@@ -1,0 +1,16 @@
+<!-- ToDo- footer to be made sticky -->
+
+<div class="footer">
+  <div class="footer-inner container">
+    <div class="row">
+        <a class="col-3 footer-logo "></a>
+        <nav class="col-9 text-right">
+            <ul>
+                <li *ngFor="let obj of labels" >
+                    <a href={{obj.link}}>{{obj?.title}}</a>
+                </li>
+              </ul>
+        </nav>
+    </div>
+  </div>
+</div>

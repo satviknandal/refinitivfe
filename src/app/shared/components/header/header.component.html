@@ -1,0 +1,37 @@
+<div class="header">
+  <div class="header-top">
+      <div class="header-inner container">
+          <nav class="row">
+              <a class="col-6" href="#">{{labels?.headerNav_discover}}</a>
+              <ul class="col-6 text-right">
+                  <li *ngFor="let obj of labels?.topNav" >
+                      <a href={{obj.link}}>{{obj?.title}}</a>
+                  </li>
+              </ul>
+            </nav>
+      </div>
+  </div>
+  <div class="header-inner container">
+    <div class="col-12">
+        <nav class="row">
+            <a class="col-3 header-logo" href="https://www.refinitiv.com/en">
+            </a>
+            <ul class="col-9 text-right header-nav">
+                <li *ngFor="let obj of labels?.mainNav" >
+                    <a href={{obj.link}} (click)="navigate(obj)">{{obj?.title}}</a>
+                </li>
+              <li>
+                <span class="search-icon"></span>
+              </li>
+            </ul>
+        </nav>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
